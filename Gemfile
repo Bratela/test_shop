@@ -18,7 +18,7 @@ gem 'coffee-rails', '~> 4.2'
 # gem "camaleon_cms"
 gem "camaleon_cms", github: 'owen2345/camaleon-cms' # current development version
 gem 'activemodel-serializers-xml', git: 'https://github.com/rails/activemodel-serializers-xml'
-
+gem 'camaleon_ecommerce', github:  'owen2345/camaleon-ecommerce'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
@@ -51,6 +51,6 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 
-#################### Camaleon CMS include all gems for plugins and themes #################### 
-require './lib/plugin_routes' 
+#################### Camaleon CMS include all gems for plugins and themes ####################
+require './lib/plugin_routes'
 instance_eval(PluginRoutes.draw_gems)
