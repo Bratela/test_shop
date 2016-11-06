@@ -1,6 +1,7 @@
 # E-commerce shop page
 
-## Web page for e-commerce
+## Web page for e-commerce with Camaleon cms
+#### http://camaleon.tuzitio.com
 ### Using rails -v 5.0.0.1 and ruby 2.3.0
 ### Main installation:
 For installation download with next command:``` git clone https://github.com/Bratela/test_shop.git``` to local folder.
